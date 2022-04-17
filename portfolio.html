@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/main.min.css">
 </head>
 <body>
 
@@ -50,183 +50,176 @@
     <!--Main section portfolio-->
     <main>
 
-        <section class="main-section">
+        <section class="portfolio">
 
             <div class="container">
 
              <!--Filters-->
 
+             <h1 class="visually-hidden"> Наши работы </h1>
 
-            <h1 class="visually-hidden"> Наши работы </h1>
-
-            <ul class="list-btn">
-                <li class="item-button"> <button type="button" class="button"> Все </button>
+             <ul class="list filters__list">
+                <li class="filters__item"> <button type="button" class="button filters__button"> Все </button>
                 </li>
 
-                <li class="item-button"> <button type="button" class="button"> Веб-сайты </button>
+                <li class="filters__item"> <button type="button" class="button filters__button"> Веб-сайты </button>
                 </li>
 
-                <li class="item-button"> <button type="button" class="button"> Приложения </button>
+                <li class="filters__item"> <button type="button" class="button filters__button"> Приложения </button>
                 </li>
 
-                <li class="item-button"> <button type="button" class="button"> Дизайн </button>
+                <li class="filters__item"> <button type="button" class="button filters__button"> Дизайн </button>
                 </li>
 
-                <li class="item-button"> <button type="button" class="button"> Маркетинг </button>
+                <li class="filters__item"> <button type="button" class="button filters__button"> Маркетинг </button>
                 </li>
-            </ul>                    
-                       
-           
+             </ul>                    
+                                  
                 <!--Cards-->
            
-                <ul class="list-cards">
+             <ul class="list portfolio__list">
 
-                    <li class="list-cards-item">          
-
-                      
-                        <a href="" class="link">  
-                            
-                            <div class="thumb">
-                       
-                            <img src="./images/img.наши.люди.jpg" class="photo" alt="Фото людей" width="370" height="294">  
-                            <p class="thumb-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
-                                Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                <li class="portfolio__item">                            
+                    <a href="" class="portfolio__link">  
+                                                    
+                        <div class="thumb">                       
+                            <img src="./images/img.наши.люди.jpg" class="thumb__photo" alt="Фото людей" width="370" height="294">  
+                            <p class="thumb__description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
+                            Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
                         </div>                        
                         
-                            <div class="card-basis">
-                        <h2 class="link-title">Технокряк</h2>
-                        <p class="link-text">Веб-сайт</p>                       
-                            </div>
-
-                        </a>
-                    </li>
-
-
-                    <li class="list-cards-item"> 
-                        <a href="" class="link">
-                        
-                            <div class="thumb">
-                                <img src="./images/img.баскетболисты.jpg" class="photo" alt="Баскетболисты в процессе игры" width="370" height="294">
-                                <p class="thumb-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
-                                    Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
-                            </div>                       
-                        
-                            
-                            <div class="card-basis">
-                        <h2 class="link-title">Постер New Orlean vs Golden Star</h2>
-                        <p class="link-text">Дизайн</p>                    
-                             </div>
-                        </a>
-                    </li>
-
-                    <li class="list-cards-item"> 
-
-                        <a href="" class="link">     
-
-                            <div class="thumb">
-                                <img src="./images/img.рыба.jpg" class="photo" alt="Эмблема ресторана" width="370" height="294">   
-                                <p class="thumb-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
-                                    Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>  
-                            </div>       
-                            
-                            <div class="card-basis">
-                        <h2 class="link-title">Ресторан Seafood</h2>
-                        <p class="link-text">Приложение</p>
-                            </div>                        
-                        </a>
-                    </li>
-
-                    <li class="list-cards-item"> 
-                        <a href="" class="link">
-                             
-                        <div class="thumb"><img src="./images/img.наушники.jpg" class="photo" alt="Наушники" width="370" height="294">
-                            <p class="thumb-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
-                                Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>  
-                           </div>                        
-
-                             <div class="card-basis">
-                        <h2 class="link-title">Проект Prime</h2>
-                        <p class="link-text">Маркетинг</p>
-                             </div>
-
-                        </a>
-                    </li>
-
-                    <li class="list-cards-item"> 
-                        <a href="" class="link">
-                            <div class="thumb">
-                                <img src="./images/img.коробки.jpg" class="photo" alt="Две коробки" width="370" height="294">
-                                <p class="thumb-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
-                                    Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>       
-                            </div>                        
-
-                            <div class="card-basis"> 
-                        <h2 class="link-title">Проект Boxes</h2>
-                        <p class="link-text">Приложение</p>                       
-                            </div>
-                        </a>
-                    </li>
-
-                    <li class="list-cards-item"> 
-                        <a href="" class="link">
-                            <div class="thumb">
-                                <img src="./images/img.компьютер.jpg" class="photo" alt="Компьютер" width="370" height="294"> 
-                                <p class="thumb-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
-                                    Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
-                            </div>                                                 
-
-                            <div class="card-basis"> 
-                        <h2 class="link-title">Inspiration has no Borders</h2>
-                        <p class="link-text">Веб-сайт</p>                        
-                            </div>
+                        <div class="thumb__basis">
+                            <h2 class="thumb__title">Технокряк</h2>
+                            <p class="thumb__text">Веб-сайт</p>                       
+                        </div>
                     </a>
-                    </li>
+                </li>
 
-                    <li class="list-cards-item"> 
-                        <a href="" class="link">
-                            <div class="thumb">
-                                <img src="./images/img.журнал.jpg" class="photo" alt="Открытый журнал" width="370" height="294">
-                                <p class="thumb-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
-                                    Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
-                            </div>                                                
-
-                            <div class="card-basis"> 
-                        <h2 class="link-title">Издание Limited Edition</h2>
-                        <p class="link-text">Дизайн</p>                        
-                            </div>
-                        </a>
-                    </li>
-
-                    <li class="list-cards-item"> 
-                        <a href="" class="link">
-                            <div class="thumb">
-                                <img src="./images/img.бирка.jpg" class="photo" alt="Бирка" width="370" height="294"> 
-                                <p class="thumb-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
-                                    Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
-                            </div>
-                                    
-                            <div class="card-basis"> 
-                        <h2 class="link-title">Проект LAB</h2>
-                        <p class="link-text">Маркетинг</p>                        
-                            </div>
-                        </a>
-                    </li>
-
-                    <li class="list-cards-item"> 
-                        <a href="" class="link">
-                            <div class="thumb">
-                                <img src="./images/img.ноутбук.jpg" class="photo" alt="Ноутбук" width="370" height="294">
-                                <p class="thumb-text">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
-                                    Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
-                            </div>                      
+                <li class="portfolio__item"> 
+                    <a href="" class="portfolio__link">
+                        
+                        <div class="thumb">
+                            <img src="./images/img.баскетболисты.jpg" class="thumb__photo" alt="Баскетболисты в процессе игры" width="370" height="294">
+                            <p class="thumb__description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
+                            Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                        </div>                                  
                             
-                            <div class="card-basis"> 
-                        <h2 class="link-title">Growing Business</h2>
-                        <p class="link-text">Приложение</p>
-                            </div>                        
-                        </a>
-                    </li>
-                </ul>
+                        <div class="thumb__basis">
+                            <h2 class="thumb__title">Постер New Orlean vs Golden Star</h2>
+                            <p class="thumb__text">Дизайн</p>                    
+                         </div>
+                    </a>
+                </li>
+
+                <li class="portfolio__item"> 
+                    <a href="" class="portfolio__link">
+                        
+                        <div class="thumb">
+                            <img src="./images/img.рыба.jpg" class="thumb__photo" alt="Эмблема ресторана" width="370" height="294">
+                            <p class="thumb__description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
+                            Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                        </div>                                  
+                            
+                        <div class="thumb__basis">
+                            <h2 class="thumb__title">Ресторан Seafood</h2>
+                            <p class="thumb__text">Приложение</p>                    
+                         </div>
+                    </a>
+                </li>
+
+              
+                <li class="portfolio__item"> 
+                    <a href="" class="portfolio__link">
+                             
+                       <div class="thumb">
+                            <img src="./images/img.наушники.jpg" class="thumb__photo" alt="Наушники" width="370" height="294">
+                            <p class="thumb__description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
+                            Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>  
+                        </div>                        
+
+                        <div class="thumb__basis">
+                            <h2 class="thumb__title">Проект Prime</h2>
+                            <p class="thumb__text">Маркетинг</p>
+                        </div>
+
+                    </a>
+                </li>
+
+                <li class="portfolio__item"> 
+                    <a href="" class="portfolio__link">
+                        <div class="thumb">
+                            <img src="./images/img.коробки.jpg" class="thumb__photo" alt="Две коробки" width="370" height="294">
+                            <p class="thumb__description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
+                            Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>       
+                        </div>                        
+
+                        <div class="thumb__basis"> 
+                            <h2 class="thumb__title">Проект Boxes</h2>
+                            <p class="thumb__text">Приложение</p>                       
+                        </div>
+                    </a>
+                </li>
+
+                <li class="portfolio__item"> 
+                    <a href="" class="portfolio__link">
+                        <div class="thumb">
+                            <img src="./images/img.компьютер.jpg" class="thumb__photo" alt="Компьютер" width="370" height="294"> 
+                            <p class="thumb__description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
+                            Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                        </div>                                                 
+
+                        <div class="thumb__basis"> 
+                            <h2 class="thumb__title">Inspiration has no Borders</h2>
+                            <p class="thumb__text">Веб-сайт</p>                        
+                        </div>
+                    </a>
+                </li>
+
+                <li class="portfolio__item"> 
+                    <a href="" class="portfolio__link">
+                        <div class="thumb">
+                            <img src="./images/img.журнал.jpg" class="thumb__photo" alt="Открытый журнал" width="370" height="294">
+                            <p class="thumb__description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
+                            Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                        </div>                                                
+
+                        <div class="thumb__basis"> 
+                            <h2 class="thumb__title">Издание Limited Edition</h2>
+                            <p class="thumb__text">Дизайн</p>                        
+                        </div>
+                    </a>
+                </li>
+
+                <li class="portfolio__item"> 
+                    <a href="" class="portfolio__link">
+                        <div class="thumb">
+                            <img src="./images/img.бирка.jpg" class="thumb__photo" alt="Бирка" width="370" height="294"> 
+                            <p class="thumb__description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
+                            Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                        </div>
+                                    
+                        <div class="thumb__basis"> 
+                            <h2 class="thumb__title">Проект LAB</h2>
+                            <p class="thumb__text">Маркетинг</p>                        
+                        </div>
+                    </a>
+                </li>
+
+                <li class="portfolio__item"> 
+                    <a href="" class="portfolio__link">
+                        <div class="thumb">
+                            <img src="./images/img.ноутбук.jpg" class="thumb__photo" alt="Ноутбук" width="370" height="294">
+                            <p class="thumb__description">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов.
+                             Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p>
+                        </div>                      
+                            
+                        <div class="thumb__basis"> 
+                            <h2 class="thumb__title">Growing Business</h2>
+                            <p class="thumb__text">Приложение</p>
+                        </div>                        
+                    </a>
+                </li>
+             </ul>
 
             </div>           
              
@@ -239,56 +232,56 @@
 
     <footer class="footer">
 
-        <div class="container container__footer">
+        <div class="container footer__container">
 
-            <div class="container-adress"> 
+            <div class="container__address"> 
 
-                <a href="./index.html" class="logo logo__adress"> <span class="web">Web</span><span class="studio studio__adress">Studio</span>  </a>
+                <a href="./index.html" class="logo logo__address"> <span class="web">Web</span><span class="studio address__studio">Studio</span>  </a>
                              
-                <address class="footer-adress"> 
-                   <p class="direction">г. Киев, пр-т Леси Украинки, 26</p> 
+                <address class="address"> 
+                   <p class="address__direction">г. Киев, пр-т Леси Украинки, 26</p> 
 
-                   <ul class="footer-list">
-                       <li class="footer-list-item">
-                       <a href="mailto:info@devstudio.com" class="footer-contact">info@devstudio.com </a></li> 
+                   <ul class="address__list">
+                       <li class="address__item">
+                       <a href="mailto:info@devstudio.com" class="address__contact">info@devstudio.com </a></li> 
 
-                       <li class="footer-list-item">
-                       <a href="tel:+380961111111" class="footer-contact">+38 096 111 11 11</a> </li>
+                       <li class="address__item">
+                       <a href="tel:+380961111111" class="address__contact">+38 096 111 11 11</a> </li>
                      </ul>     
                </address> 
            </div>
 
           <div class="connect">
 
-            <h3 class="title-footer-connect">ПРИСОЕДИНЯЙТЕСЬ</h3>
-            <ul class="list-icons-footer">
-                <li class="icon-footer-item">
-                    <a class="social-link-footer" href="" aria-label="icon-instagram">
-                        <svg class="social-icon-footer" width="20px" height="20px">
+            <h3 class="connect__title">ПРИСОЕДИНЯЙТЕСЬ</h3>
+            <ul class="list communication">
+                <li class="communication__item">
+                    <a class="communication__link communication__link--dark" href="" aria-label="icon-instagram">
+                        <svg class="communication__icon--dark" width="20px" height="20px">
                             <use href="./images/symbol-defs.svg#icon-instagram"></use>
                         </svg>
                     </a>
                 </li>
   
-                <li class="icon-footer-item">
-                    <a class="social-link-footer" href="" aria-label="icon-twitter">
-                        <svg class="social-icon-footer" width="20px" height="20px">
+                <li class="communication__item">
+                    <a class="communication__link communication__link--dark" href="" aria-label="icon-twitter">
+                        <svg class="communication__icon--dark" width="20px" height="20px">
                             <use href="./images/symbol-defs.svg#icon-twitter"></use>
                         </svg>
                     </a>
                 </li>
   
-                <li class="icon-footer-item">
-                    <a class="social-link-footer" href="" aria-label="icon-facebook">
-                        <svg class="social-icon-footer" width="20px" height="20px">
+                <li class="communication__item">
+                    <a class="communication__link communication__link--dark" href="" aria-label="icon-facebook">
+                        <svg class="communication__icon--dark" width="20px" height="20px">
                             <use href="./images/symbol-defs.svg#icon-facebook"></use>
                         </svg>
                     </a>
                 </li>
   
-                <li class="icon-footer-item">
-                    <a class="social-link-footer" href="" aria-label="icon-linkedin">
-                        <svg class="social-icon-footer" width="20px" height="20px">
+                <li class="communication__item">
+                    <a class="communication__link communication__link--dark" href="" aria-label="icon-linkedin">
+                        <svg class="communication__icon--dark" width="20px" height="20px">
                             <use href="./images/symbol-defs.svg#icon-linkedin"></use>
                         </svg>
                     </a>
@@ -298,10 +291,10 @@
           </div>
 
           <form class="subscribe">
-            <b class="subscribe-call">ПОДПИШИТЕСЬ НА РАССЫЛКУ</b>
-            <label for=""><input class="subscribe-field" type="email" name="email" placeholder="E-mail"/></label>     
-            <button class="btn-submit" type="submit">Подписаться
-                <svg class="icon-btn" width="24px" height="24px">
+            <b class="subscribe__call">ПОДПИШИТЕСЬ НА РАССЫЛКУ</b>
+            <label for=""><input class="subscribe__field" type="email" name="email" placeholder="E-mail"/></label>     
+            <button class="button submit" type="submit">Подписаться
+                <svg class="submit__icon" width="24px" height="24px">
                     <use href="./images/symbol-defs.svg#icon-icon-send"></use>
                 </svg>
             </button>
